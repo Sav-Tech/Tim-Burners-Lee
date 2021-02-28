@@ -1,29 +1,83 @@
-#welcome{
-    height:100vh;
-    background: linear-gradient(to bottom right,rgba(0,0,255,1),cyan,blue);
-    display:table;
+html,
+body {
+    margin: 0;
+}
+
+#welcome {
+    height: 100vh;
+    background: linear-gradient(to bottom right, #9ED8DB, #1D3354);
+    display: table;
     width: 100%;
 }
 
-#welcome_inner img{
+#welcome_inner img {
     height: 300px;
     width: 300px;
     border-radius: 150px;
-    
+
 }
-#welcome_inner{
+
+#welcome_inner {
     display: table-cell;
     vertical-align: middle;
 }
 
-body{
- text-align: center;
+body {
+    text-align: center;
 }
 
-#bio p{
+#bio p {
     max-width: 1000px;
     text-align: justify;
     line-height: 1.3;
-    font-size: 17px;
+    font-size: 15px;
     margin: auto;
+    color: black;
+    letter-spacing: 1px;
+}
+
+#bio{
+    background: rgba(100,100,100,0.1)
+}
+    #bio h1 {
+        margin-top: 100px;
+        margin-bottom: 10px;
+        font-size: 50px;
+        font-weight: 300;
+        text-transform: uppercase;
+    }
+
+
+
+nav {
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    background: rgba(0, 0, 0, 0.8);
+    color: white;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav li {
+    display: inline;
+    margin-right: 35px;
+    font-size: 20px;
+    letter-spacing: 2px;
+    font-family: 'EB Garamond', serif;
+}
+
+#name {
+    font-family: 'Merriweather', serif;
+    font-size: 50px;
+    text-transform: uppercase;
+    font-weight: 1000;
+    color: rgba(0, 0, 0, 0.9)
+}
+
+#name2 {
+    color: #48cae4;
 }
